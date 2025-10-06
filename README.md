@@ -25,26 +25,31 @@ This demo shows how an AI agent can autonomously open a file, navigate the web, 
 ```bash
 git clone https://github.com/Nv1023/ai-browser-gemini.git
 cd ai-browser-gemini
+
 2. Create a Virtual Environment
 bash
 Copy code
 python -m venv venv
 source venv/bin/activate   # On Windows: venv\Scripts\activate
+
 3. Install Dependencies
 bash
 Copy code
 pip install -r requirements.txt
+
 4. Set Environment Variable
 Get your Gemini API key from Google AI Studio.
-
 bash
 Copy code
 export GEMINI_API_KEY=your_api_key_here   # macOS/Linux
 set GEMINI_API_KEY=your_api_key_here      # Windows (PowerShell)
+
 5. Run the Project
 bash
 Copy code
 python main.py
+
+---
 
 ## 📂 Project Structure
 r
@@ -53,6 +58,8 @@ ai-browser-gemini/
 │── main.py               # Main demo script
 │── requirements.txt       # Dependencies
 │── README.md              # Documentation
+
+---
 
 ## 🧑‍💻 Example Task
 The agent is configured to:
@@ -75,6 +82,8 @@ User: user835611
 Reputation: 14,520  
 Main Topics: Python, Flask, SQLAlchemy, REST APIs  
 
+---
+
 ## 🔮 Future Enhancements
 Add support for multi-user lookup
 
@@ -84,8 +93,12 @@ Extend to multiple platforms (Reddit, GitHub, Twitter)
 
 Integrate voice-based instructions
 
+---
+
 ## 📜 License
 This project is licensed under the MIT License – see the LICENSE file for details.
+
+---
 
 ## 👨‍💻 Author
 Nagavengadeshwaran S
