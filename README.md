@@ -45,14 +45,16 @@ set GEMINI_API_KEY=your_api_key_here      # Windows (PowerShell)
 bash
 Copy code
 python main.py
-📂 Project Structure
+
+## 📂 Project Structure
 r
 Copy code
 ai-browser-gemini/
 │── main.py               # Main demo script
 │── requirements.txt       # Dependencies
 │── README.md              # Documentation
-🧑‍💻 Example Task
+
+## 🧑‍💻 Example Task
 The agent is configured to:
 
 Open a local file users.txt
@@ -81,10 +83,10 @@ Extend to multiple platforms (Reddit, GitHub, Twitter)
 
 Integrate voice-based instructions
 
-📜 License
+## 📜 License
 This project is licensed under the MIT License – see the LICENSE file for details.
 
-👨‍💻 Author
+## 👨‍💻 Author
 Nagavengadeshwaran S
 📧 Email: 24f1000802@ds.study.iitm.ac.in
 🔗 GitHub: Nv1023
