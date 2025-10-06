@@ -46,7 +46,7 @@ bash
 Copy code
 python main.py
 
-## 📂 Project Structure
+# 📂 Project Structure
 r
 Copy code
 ai-browser-gemini/
@@ -54,7 +54,7 @@ ai-browser-gemini/
 │── requirements.txt       # Dependencies
 │── README.md              # Documentation
 
-## 🧑‍💻 Example Task
+# 🧑‍💻 Example Task
 The agent is configured to:
 
 Open a local file users.txt
@@ -74,7 +74,8 @@ Copy code
 User: user835611  
 Reputation: 14,520  
 Main Topics: Python, Flask, SQLAlchemy, REST APIs  
-🔮 Future Enhancements
+
+# 🔮 Future Enhancements
 Add support for multi-user lookup
 
 Export results as JSON/CSV reports
@@ -83,10 +84,10 @@ Extend to multiple platforms (Reddit, GitHub, Twitter)
 
 Integrate voice-based instructions
 
-## 📜 License
+# 📜 License
 This project is licensed under the MIT License – see the LICENSE file for details.
 
-## 👨‍💻 Author
+# 👨‍💻 Author
 Nagavengadeshwaran S
 📧 Email: 24f1000802@ds.study.iitm.ac.in
 🔗 GitHub: Nv1023
