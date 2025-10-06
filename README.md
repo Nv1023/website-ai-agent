@@ -8,8 +8,6 @@
 An **AI-powered browser automation project** that uses **Gemini 2.0** with LangChain and the `browser_use` package.  
 This demo shows how an AI agent can autonomously open a file, navigate the web, extract data, and generate summaries.
 
----
-
 ## 🚀 Features
 - 🤖 **LLM-Powered Automation** – Uses **Gemini 2.0** to interpret natural language instructions.  
 - 🌍 **Browser Integration** – Launches a Chrome session for real-world interactions.  
@@ -17,49 +15,37 @@ This demo shows how an AI agent can autonomously open a file, navigate the web, 
 - 📊 **Summarization** – Returns a concise summary of the topics the user contributes to.  
 - ⚡ **Async Execution** – Runs tasks asynchronously with Python `asyncio`.  
 
----
-
 ## ⚙️ Installation & Setup  
 
 ### 1. Clone the Repository  
-```bash
 git clone https://github.com/Nv1023/ai-browser-gemini.git
 cd ai-browser-gemini
 
 2. Create a Virtual Environment
-bash
 Copy code
 python -m venv venv
 source venv/bin/activate   # On Windows: venv\Scripts\activate
 
 3. Install Dependencies
-bash
 Copy code
 pip install -r requirements.txt
 
 4. Set Environment Variable
 Get your Gemini API key from Google AI Studio.
-bash
 Copy code
 export GEMINI_API_KEY=your_api_key_here   # macOS/Linux
 set GEMINI_API_KEY=your_api_key_here      # Windows (PowerShell)
 
 5. Run the Project
-bash
 Copy code
 python main.py
 
----
-
 ## 📂 Project Structure
-r
 Copy code
 ai-browser-gemini/
 │── main.py               # Main demo script
 │── requirements.txt       # Dependencies
 │── README.md              # Documentation
-
----
 
 ## 🧑‍💻 Example Task
 The agent is configured to:
@@ -101,6 +87,6 @@ This project is licensed under the MIT License – see the LICENSE file for deta
 ---
 
 ## 👨‍💻 Author
-Nagavengadeshwaran S
+**Nagavengadeshwaran S**
 📧 Email: 24f1000802@ds.study.iitm.ac.in
 🔗 GitHub: Nv1023
